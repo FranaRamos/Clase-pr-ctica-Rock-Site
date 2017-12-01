@@ -1,0 +1,37 @@
+@media (max-width: 710px) {
+	[class*="col-"] {
+		width: 100%;
+	}
+
+	header label {
+		display: block;
+		float: right;
+	}
+
+	.menu {
+		display: none;
+	}
+
+}
+
+@media (max-width: 500px) {
+
+	.firstline h2,
+	.secondline h2,
+	.thirdline h2 {
+		margin-top: -2em;
+	}
+
+	h3 {
+		padding-top: 3em;
+	}
+
+	h1 {
+		font-size: 80px;
+		margin-top: -1em;
+	}
+
+	p {
+		font-size: 20px;
+	}
+}
